@@ -1,0 +1,6 @@
+plotly
+paramiko
+numpy
+rdkit
+ipyvuetify
+ipywidgets

@@ -14,3 +14,6 @@ python gps_kalman.py
 The script will display a plot of the raw GPS positions, filtered
 trajectory and residual diagnostics.
 
+You can also open `gps_kalman_demo.ipynb` in Jupyter to run the same
+simulation interactively.
+

@@ -110,7 +110,7 @@ def generate_synthetic_data(
 
         if k % gps_interval == 0 and not (dropout_range[0] <= k <= dropout_range[1]):
             # GPS measurement available
-            lat, lon = proj_ll.transform(x, y)
+            lon, lat = proj_ll.transform(x, y)
             lat += np.random.normal(scale=gps_noise)
             lon += np.random.normal(scale=gps_noise)
             gps_data.append((lat, lon))
